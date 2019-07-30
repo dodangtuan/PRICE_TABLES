@@ -92,16 +92,21 @@ a {
    /* margin-top: 10px;*/
     display: inline-flex;
 }
-
+.header-icon ul li:nth-child(3){
+    position: relative;
+}
 .add{
-    display: inline-block;
     width: 32px;
     height: 17px;
     background-image: url("../image/add.png");
     text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 2px;
+    left: 70%;
 }
 
-.cata{
+#cata{
     margin-left:6px;
     font-family: SourceSansPro-Regular;
     font-size: 14px;
@@ -110,7 +115,7 @@ a {
 
 .item {
     color:#98a8b4;
-    margin-right:15px;
+    margin-right:20px;
 }
 
 
@@ -151,6 +156,8 @@ a {
     line-height: 1.542;
 }
 
+
+
 .slider-button {
     color: #fff;
     margin-top: 82px;
@@ -185,12 +192,21 @@ a {
     margin: auto;
 }
 
-.title-caption {
+.title-caption1 {
     font-family: Montserrat-Light;
     font-size: 50px;
     color: #3c3950;
     padding-top: 140px;
 }
+
+.title-caption2{
+    font-family: Montserrat-Bold;
+    font-size: 50px;
+    color: #3c3950;
+    padding-top: 140px;
+
+}
+
 
 .title-sub {
     font-family: SourceSansPro-Light;
@@ -215,7 +231,6 @@ a {
     width: 292px;
     height: 670px;
     background: #f0f3f2;
-    position: relative;
 }
 
 .new-icon {
@@ -236,7 +251,9 @@ a {
     border-width: 1px 0.5px 0px 0.5px;
     border-style: solid;
     border-color:#dfe5e8;
+    position: relative;
 }
+
 
 .price {
     height: 150px;
@@ -342,27 +359,27 @@ a {
     background-color: #fff;
 }
 
-.block-1:hover .table-title {
+.block-1:hover .table-title{
     margin-top: -22px;
-    padding-bottom: 22px;
-    background-color: #fff;
+    padding-bottom:22px;
+   /* background-color: #fff;*/
 }
 
 .block-1:hover .table-button {
-    margin-bottom: -22px;
+    margin-bottom: 22px;
     padding-bottom: 22px;
-    background-color: #fff;
+    /*background-color: #fff;*/
 }
 
 .block-1:hover .button-tyle1 {
     background-color: #83bce9;
 }
 
-.block-1:hover .new-icon {
-    margin-top: -22px;
-    padding-bottom: 22px;
-}
 
 .fa-caret-right{
     margin-right:7px;
+}
+
+.block-1:hover .table-title1 {
+    padding-top: 22px; 
 }
